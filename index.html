@@ -8,7 +8,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <style>
+      .btn-success {
+        background: rgb(157, 218, 66) !important;
+      }
+    </style>
     <!-- Bootstrap CSS v5.0.2 -->
     <link
       rel="stylesheet"
@@ -35,7 +39,9 @@
                 <button class="w-100 fw-bold fs-3 btn btn-primary">)</button>
               </th>
               <th colspan="2" scope="col">
-                <button class="w-100 fw-bold fs-3 btn btn-danger">AC</button>
+                <button type="button" class="w-100 fw-bold fs-3 btn btn-danger">
+                  AC
+                </button>
               </th>
             </tr>
           </thead>
@@ -51,7 +57,9 @@
                 <button class="w-100 fw-bold fs-3 btn btn-warning">3</button>
               </td>
               <td>
-                <button class="w-100 fw-bold fs-3 btn btn-primary">/</button>
+                <button class="w-100 fw-bold fs-3 btn btn-primary">
+                  &#247;
+                </button>
               </td>
             </tr>
             <tr>
@@ -65,7 +73,7 @@
                 <button class="w-100 fw-bold fs-3 btn btn-warning">6</button>
               </td>
               <td>
-                <button class="w-100 fw-bold fs-3 btn btn-primary">*</button>
+                <button class="w-100 fw-bold fs-3 btn btn-primary">×</button>
               </td>
             </tr>
             <tr>
@@ -98,14 +106,18 @@
             </tr>
             <tr>
               <td>
-                <button class="w-100 fw-bold fs-3 btn btn-primary">%</button>
+                <button class="answer w-100 fw-bold fs-3 btn btn-success">
+                  n²
+                </button>
               </td>
               <td>
-                <button class="w-100 fw-bold fs-3 btn btn-primary">root</button>
+                <button class="answer w-100 fw-bold fs-3 btn btn-success">
+                  √
+                </button>
               </td>
               <td colspan="2">
-                <button class="w-100 fw-bold fs-3 btn btn-primary">
-                  Answer
+                <button class="answer w-100 fw-bold fs-3 btn btn-success">
+                  =
                 </button>
               </td>
             </tr>
